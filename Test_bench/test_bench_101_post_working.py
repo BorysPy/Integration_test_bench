@@ -27,3 +27,26 @@ payload = json.dumps(
 
 response = requests.post(url,headers = headers,data = payload,auth = auth)
 print(response.text)
+
+class JiraIssueApi:
+   def __init__(self, auth):
+      self.auth = auth
+  
+   def get_list_jira_issues(self, url):
+      pass
+
+   def create_jira_issue(self, url):
+      pass
+
+   def read_jira_issue(self, url):
+      pass
+
+   def update_jira_issue(self, url):
+      pass
+
+   def delete_jira_issue(self, url):
+      pass
+
+jira_issue_api_object = JiraIssueApi(auth = auth)
+jira_issue_api_object.get_list_jira_issues(url = url) #endpoint
+
