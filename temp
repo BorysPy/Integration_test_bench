@@ -1,0 +1,167 @@
+{
+    "expand": "projects",
+    "projects": [
+        {
+            "avatarUrls": {
+                "16x16": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=xsmall",
+                "24x24": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=small",
+                "32x32": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422?size=medium",
+                "48x48": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10422"
+            },
+            "id": "10000",
+            "issuetypes": [
+                {
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://doubledare.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "id": "10001",
+                    "name": "Task",
+                    "scope": {
+                        "project": {
+                            "id": "10000"
+                        },
+                        "type": "PROJECT"
+                    },
+                    "self": "https://doubledare.atlassian.net/rest/api/3/issuetype/10001",
+                    "subtask": false,
+                    "untranslatedName": "Task"
+                },
+                {
+                    "description": "A small piece of work that's part of a larger task.",
+                    "iconUrl": "https://doubledare.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "id": "10002",
+                    "name": "Sub-task",
+                    "scope": {
+                        "project": {
+                            "id": "10000"
+                        },
+                        "type": "PROJECT"
+                    },
+                    "self": "https://doubledare.atlassian.net/rest/api/3/issuetype/10002",
+                    "subtask": true,
+                    "untranslatedName": "Sub-task"
+                }
+            ],
+            "key": "ITB",
+            "name": "Integration test bench",
+            "self": "https://doubledare.atlassian.net/rest/api/3/project/10000"
+        },
+        {
+            "avatarUrls": {
+                "16x16": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=xsmall",
+                "24x24": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=small",
+                "32x32": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10402?size=medium",
+                "48x48": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10402"
+            },
+            "id": "10002",
+            "issuetypes": [
+                {
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://doubledare.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "id": "10005",
+                    "name": "Task",
+                    "scope": {
+                        "project": {
+                            "id": "10002"
+                        },
+                        "type": "PROJECT"
+                    },
+                    "self": "https://doubledare.atlassian.net/rest/api/3/issuetype/10005",
+                    "subtask": false,
+                    "untranslatedName": "Task"
+                },
+                {
+                    "description": "A small piece of work that's part of a larger task.",
+                    "iconUrl": "https://doubledare.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "id": "10006",
+                    "name": "Sub-task",
+                    "scope": {
+                        "project": {
+                            "id": "10002"
+                        },
+                        "type": "PROJECT"
+                    },
+                    "self": "https://doubledare.atlassian.net/rest/api/3/issuetype/10006",
+                    "subtask": true,
+                    "untranslatedName": "Sub-task"
+                },
+                {
+                    "description": "Bugs track problems or errors.",
+                    "iconUrl": "https://doubledare.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "id": "10007",
+                    "name": "Bug",
+                    "scope": {
+                        "project": {
+                            "id": "10002"
+                        },
+                        "type": "PROJECT"
+                    },
+                    "self": "https://doubledare.atlassian.net/rest/api/3/issuetype/10007",
+                    "subtask": false,
+                    "untranslatedName": "Bug"
+                },
+                {
+                    "description": "Epics track large pieces of work.",
+                    "iconUrl": "https://doubledare.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                    "id": "10008",
+                    "name": "Epic",
+                    "scope": {
+                        "project": {
+                            "id": "10002"
+                        },
+                        "type": "PROJECT"
+                    },
+                    "self": "https://doubledare.atlassian.net/rest/api/3/issuetype/10008",
+                    "subtask": false,
+                    "untranslatedName": "Epic"
+                }
+            ],
+            "key": "JA",
+            "name": "Jira API",
+            "self": "https://doubledare.atlassian.net/rest/api/3/project/10002"
+        },
+        {
+            "avatarUrls": {
+                "16x16": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=xsmall",
+                "24x24": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=small",
+                "32x32": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=medium",
+                "48x48": "https://doubledare.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10400"
+            },
+            "id": "10001",
+            "issuetypes": [
+                {
+                    "description": "A small, distinct piece of work.",
+                    "iconUrl": "https://doubledare.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "id": "10003",
+                    "name": "Task",
+                    "scope": {
+                        "project": {
+                            "id": "10001"
+                        },
+                        "type": "PROJECT"
+                    },
+                    "self": "https://doubledare.atlassian.net/rest/api/3/issuetype/10003",
+                    "subtask": false,
+                    "untranslatedName": "Task"
+                },
+                {
+                    "description": "A small piece of work that's part of a larger task.",
+                    "iconUrl": "https://doubledare.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "id": "10004",
+                    "name": "Sub-task",
+                    "scope": {
+                        "project": {
+                            "id": "10001"
+                        },
+                        "type": "PROJECT"
+                    },
+                    "self": "https://doubledare.atlassian.net/rest/api/3/issuetype/10004",
+                    "subtask": true,
+                    "untranslatedName": "Sub-task"
+                }
+            ],
+            "key": "TP",
+            "name": "test project",
+            "self": "https://doubledare.atlassian.net/rest/api/3/project/10001"
+        }
+    ]
+}
